@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapiproject-coursenowy"
+version = "0.1.0"
+description = ""
+authors = ["MaciejKrawczyk <kontakt.maciejkrawczyk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapiproject_coursenowy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.20.0"
+fastapi = "^0.88.0"
+pydantic = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
